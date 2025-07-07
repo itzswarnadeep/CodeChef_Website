@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeChef MIT-ADT | Competitive Programming Club</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Theme Toggle Button -->
+
+    <!-- Top Header Section -->
+    <div class="top-header">
+      <div class="container">
+        <div class="top-header-inner">
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle Dark/Light Mode"
+          >
+            <i class="fas fa-sun light-icon"></i>
+            <i class="fas fa-moon dark-icon"></i>
+          </button>
+          <div class="top-btn-box">
+            <a href="https://www.codechef.com/login">Login</a>
+            <a href="#contact" style="background-color: #0c8c64">Contact Us</a>
+          </div>
+          <div class="top-menu">
+            <ul>
+              <li>
+                <a href="https://www.codechef.com/careers" target="_blank"
+                  >Careers</a
+                >
+              </li>
+              <li><a href="#alumni">Alumni</a></li>
+              <li><a href="#announcements">Announcements</a></li>
+              <li><a href="#events">Events</a></li>
+            </ul>
+          </div>
+          <div class="top-social">
+            <a
+              href="https://www.facebook.com/CodeChef/photos/a.10150302285647799/10158405806767799/?type=3"
+              target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/codechef_mitadt/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://in.linkedin.com/company/codechef" target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://x.com/codechef?lang=en" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/channel/UCh-5M0r0SBgb5xNCFXG7aXQ"
+              target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Header Section -->
+    <header class="main-header">
+      <div class="container">
+        <div class="header-inner">
+          <div class="logo">
+            <a href="index.html">
+              <img
+                src="CodeChef New Logo 24-25.png"
+                alt="CodeChef MIT-ADT Logo"
+              />
+            </a>
+          </div>
+          <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav class="main-nav" id="mainNav">
+            <ul>
+              <li><a href="#home" class="active">Home</a></li>
+              <li><a href="#aboutus">About Us</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#advisors">Advisor</a></li>
+              <li><a href="#alumni">Alumni</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Banner Section -->
+    <section class="hero-section" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-image-slider-bg"></div>
+      <div class="hero-image-slider">
+        <button
+          class="slider-arrow left"
+          id="heroSliderPrev"
+          aria-label="Previous slide"
+        >
+          &#8592;
+        </button>
+        <div class="slider-images">
+          <img class="slider-img" src="slide pics/slide1.jpeg" alt="Slide 1" />
+          <img class="slider-img" src="slide pics/slide2.jpeg" alt="Slide 2" />
+          <img
+            class="slider-img"
+            src="clubcatalyst pics/catalystmain4.jpeg"
+            alt="Slide 3"
+          />
+          <img class="slider-img" src="slide pics/slide.jpeg" alt="Slide 4" />
+          <img class="slider-img" src="slide pics/slide3.jpeg" alt="Slide 5" />
+          <img class="slider-img" src="slide pics/slide4.jpeg" alt="Slide 6" />
+        </div>
+        <button
+          class="slider-arrow right"
+          id="heroSliderNext"
+          aria-label="Next slide"
+        >
+          &#8594;
+        </button>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1>Welcome to CodeChef MIT-ADT</h1>
+          <p>
+            Empowering students through competitive programming and
+            problem-solving
+          </p>
+          <div class="hero-btns">
+            <a
+              href="https://chat.whatsapp.com/CRgVmzhRuWF4xkUwKGCL9W"
+              target="_blank"
+              class="primary-btn"
+              >Join Us</a
+            >
+            <a href="#events" class="secondary-btn">Explore Events</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding" id="aboutus">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Us</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              CodeChef MIT-ADT is one of the oldest and most prominent coding clubs at MITADT, dedicated to nurturing a strong culture of competitive programming, problem-solving, and data structures & algorithms (DSA). We regularly host workshops, coding contests, and hackathons to empower students in sharpening their coding skills
+            </p>
+            <p>
+              Our mission is to create a community of passionate coders who can
+              learn, and grow together in the field of computer
+              science and technology.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat-item">
+                <div class="stat-number">300+</div>
+                <div class="stat-title">Members</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">30+</div>
+                <div class="stat-title">Events</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">20+</div>
+                <div class="stat-title">Workshops</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">10+</div>
+                <div class="stat-title">Competitions</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="slide pics/slide1.jpeg" alt="CodeChef Club Activities" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events-section section-padding" id="events">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Events</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtext">
+            Explore our exciting events and activities designed to enhance your
+            coding skills
+          </p>
+        </div>
+
+        <div class="event-grid">
+          <!-- Event Card 1 -->
+          <div class="event-card">
+            <div class="event-image">
+              <img src="cpp-pics/cpp1.jpg" alt="CPP Bootcamp 2.0" />
+              <div class="event-date">
+                <span class="day">15</span>
+                <span class="month">Oct</span>
+              </div>
+            </div>
+            <div class="event-content">
+              <h3>CPP Bootcamp 2.0</h3>
+              <div class="event-meta">
+                <div class="event-location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>MIT ADT University, Pune</span>
+                </div>
+                <div class="event-time">
+                  <i class="far fa-clock"></i>
+                  <span>10:00 AM - 1:00 PM</span>
+                </div>
+              </div>
+              <p>
+                An exciting bootcamp conducted by our team on the latest trends in C++
+                programming and advanced concepts.
+              </p>
+              <a href="events/cpp-bootcamp.html" class="event-btn"
+                >Learn More</a
+              >
+            </div>
+          </div>
+
+          <!-- Event Card 2 -->
+          <div class="event-card">
+            <div class="event-image">
+              <img src="cpp-pics/cpp3.jpg" alt="DSA Bootcamp 2.0" />
+              <div class="event-date">
+                <span class="day">10</span>
+                <span class="month">Apr</span>
+              </div>
+            </div>
+            <div class="event-content">
+              <h3>DSA Bootcamp 2.0</h3>
+              <div class="event-meta">
+                <div class="event-location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>MIT ADT University, Pune</span>
+                </div>
+                <div class="event-time">
+                  <i class="far fa-clock"></i>
+                  <span>11:00 AM - 4:00 PM</span>
+                </div>
+              </div>
+              <p>
+                A creative workshop on data structures, algorithms and
+                innovative problem-solving concepts by the team.
+              </p>
+              <a href="events/dsa-bootcamp.html" class="event-btn"
+                >Learn More</a
+              >
+            </div>
+          </div>
+
+          <!-- Event Card 3 -->
+          <div class="event-card">
+            <div class="event-image">
+              <img src="valicq pics/valicq1.jpeg" alt="ValiCQ 2.0" />
+              <div class="event-date">
+                <span class="day">12</span>
+                <span class="month">February</span>
+              </div>
+            </div>
+            <div class="event-content">
+              <h3>ValiCQ 2.0</h3>
+              <div class="event-meta">
+                <div class="event-location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>MIT ADT University, Pune</span>
+                </div>
+                <div class="event-time">
+                  <i class="far fa-clock"></i>
+                  <span>1:00 PM - 4:00 PM</span>
+                </div>
+              </div>
+              <p>
+                A Coding Competition to make student focus on emerging trends in competitive programming and
+                innovative approaches.
+              </p>
+              <a href="events/valicq.html" class="event-btn">Learn More</a>
+            </div>
+          </div>
+
+          <!-- Event Card 4 -->
+          <div class="event-card">
+            <div class="event-image">
+              <img src="chai pics/chai1 jpg.jpg" alt="Chai with Alumni" />
+              <div class="event-date">
+                <span class="day">12</span>
+                <span class="month">Sept</span>
+              </div>
+            </div>
+            <div class="event-content">
+              <h3>Chai with Alumni</h3>
+              <div class="event-meta">
+                <div class="event-location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>MIT ADT University, Pune</span>
+                </div>
+                <div class="event-time">
+                  <i class="far fa-clock"></i>
+                  <span>1:00 PM - 4:00 PM</span>
+                </div>
+              </div>
+              <p>
+                A fun and interactive session where students connected with the
+                alumni of our club over stories in a formal way and shared their experiences.
+              </p>
+              <a href="events/chai-with-alumni.html" class="event-btn"
+                >Learn More</a
+              >
+            </div>
+          </div>
+
+          <!-- Event Card 5 -->
+          <div class="event-card">
+            <div class="event-image">
+              <img
+                src="dsa code mystique/codemystique1.jpg"
+                alt="Code Mystique-Persona 2K24"
+              />
+              <div class="event-date">
+                <span class="day">5</span>
+                <span class="month">February</span>
+              </div>
+            </div>
+            <div class="event-content">
+              <h3>Code Mystique-Persona 2K24</h3>
+              <div class="event-meta">
+                <div class="event-location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>MIT ADT University, Pune</span>
+                </div>
+                <div class="event-time">
+                  <i class="far fa-clock"></i>
+                  <span>10:00 AM - 6:00 PM</span>
+                </div>
+              </div>
+              <p>
+                A thrilling game where participants decoded clues to guess
+                popular Bollywood movie names in the Persona Fest.
+              </p>
+              <a href="events/code-mystique.html" class="event-btn"
+                >Learn More</a
+              >
+            </div>
+          </div>
+
+          <!-- Event Card 6 -->
+          <div class="event-card">
+            <div class="event-image">
+              <img
+                src="clubcatalyst pics/catalystmain1.jpeg"
+                alt="Club Catalyst"
+              />
+              <div class="event-date">
+                <span class="day">26</span>
+                <span class="month">February</span>
+              </div>
+            </div>
+            <div class="event-content">
+              <h3>Club Catalyst</h3>
+              <div class="event-meta">
+                <div class="event-location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>MIT ADT University, Pune</span>
+                </div>
+                <div class="event-time">
+                  <i class="far fa-clock"></i>
+                  <span>9:00 AM - 4:00 PM</span>
+                </div>
+              </div>
+              <p>
+                Showcasing our club to the students of first year and making
+                them introduced to Competitive Programming and Data Structures
+                and Algorithms(DSA)
+              </p>
+              <a href="events/club-catalyst.html" class="event-btn"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section section-padding" id="team">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Team</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtext">
+            Meet the dedicated team behind CodeChef MIT-ADT
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <!-- President -->
+          <div class="team-card">
+            <div class="team-image">
+              <img
+                src="Team Leads/kartik.jpeg"
+                alt="Kartikeyan Anand"
+              />
+            </div>
+            <div class="team-info">
+              <h3>Kartikeyan Anand</h3>
+              <p class="team-position">President</p>
+              <div class="team-social">
+                <a
+                  href="https://www.linkedin.com/in/kartikeyan-anand/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href=""><i class="fab fa-github"></i></a>
+                <a
+                  href="https://www.instagram.com/mr._rajput_18/?hl=en"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vice President -->
+          <div class="team-card">
+            <div class="team-image">
+              <img src="swarnadeep/swarnadeep3.jpeg" alt="Swarnadeep Barik" />
+            </div>
+            <div class="team-info">
+              <h3>Swarnadeep Barik</h3>
+              <p class="team-position">Vice President</p>
+              <div class="team-social">
+                <a
+                  href="https://www.linkedin.com/in/swarnadeep-barik/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/itzswarnadeep"><i class="fab fa-github"></i></a>
+                <a href="deepig.html"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Secretary -->
+          <div class="team-card">
+            <div class="team-image">
+              <img
+                src="Team Leads/Reet_Kaur-Secretary.jpg"
+                alt="Reet Kaur Nahal"
+              />
+            </div>
+            <div class="team-info">
+              <h3>Reet Kaur Nahal</h3>
+              <p class="team-position">Secretary</p>
+              <div class="team-social">
+                <a
+                  href="http://linkedin.com/in/reet-nahal-94a822290"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/itzswarnadeep" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Technical Lead -->
+          <div class="team-card">
+            <div class="team-image">
+              <img
+                src="Team Leads/Nikhil_Parbat-Technical Lead.jpg"
+                alt="Nikhil Parbat"
+              />
+            </div>
+            <div class="team-info">
+              <h3>Nikhil Parbat</h3>
+              <p class="team-position">Technical Lead</p>
+              <div class="team-social">
+                <a
+                  href="https://www.linkedin.com/in/nikhil-parbat"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/NikhilParbat" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design Lead -->
+          <div class="team-card">
+            <div class="team-image">
+              <img src="Team Leads/aryan.jpeg" alt="Aryan Maini" />
+            </div>
+            <div class="team-info">
+              <h3>Aryan Maini</h3>
+              <p class="team-position">Design Lead</p>
+              <div class="team-social">
+                <a href="https://www.linkedin.com/in/aryan-maini-159bb7332/?originalSubdomain=in" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Event Management Lead -->
+          <div class="team-card">
+            <div class="team-image">
+              <img
+                src="Team Leads/Anika_Hingane_-Event_Management_Lead.jpg"
+                alt="Anika Hingane"
+              />
+            </div>
+            <div class="team-info">
+              <h3>Anika Hingane</h3>
+              <p class="team-position">Event Management Lead</p>
+              <div class="team-social">
+                <a
+                  href="http://linkedin.com/in/anika-h-16a11s11h"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/AnikaHingane" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Media Lead -->
+          <div class="team-card">
+            <div class="team-image">
+              <img src="Team Leads/Surabhi.jpg" alt="Surabhi Nare" />
+            </div>
+            <div class="team-info">
+              <h3>Surabhi Nare</h3>
+              <p class="team-position">Social Media Lead</p>
+              <div class="team-social">
+                <a
+                  href="https://www.linkedin.com/in/surabhi-nare-76114123b"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/_surabhiiii_" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Promotions Lead -->
+          <div class="team-card">
+            <div class="team-image">
+              <img
+                src="Team Leads/Vedant Paune- Promotions Lead .jpg"
+                alt="Vedant Paune"
+              />
+            </div>
+            <div class="team-info">
+              <h3>Vedant Paune</h3>
+              <p class="team-position">Promotions Lead</p>
+              <div class="team-social">
+                <a
+                  href="https://www.linkedin.com/in/vedant-p-6a573030a"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/vedxantt" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Lead -->
+          <div class="team-card">
+            <div class="team-image">
+              <img
+                src="Team Leads/Udita Sinha- Content Lead .jpg"
+                alt="Udita Sinha"
+              />
+            </div>
+            <div class="team-info">
+              <h3>Udita Sinha</h3>
+              <p class="team-position">Content Lead</p>
+              <div class="team-social">
+                <a
+                  href="http://www.linkedin.com/in/uditasinha531"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/udita2004" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Videography Lead -->
+          <div class="team-card pramit-card">
+            <div class="team-image">
+              <img
+                src="Team Leads/Pramit sil-Videography Lead.jpg"
+                alt="Pramit Sil"
+              />
+            </div>
+            <div class="team-info">
+              <h3>Pramit Sil</h3>
+              <p class="team-position">Videography Lead</p>
+              <div class="team-social">
+                <a
+                  href="https://www.linkedin.com/in/pramit-sil-31008227b/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/pramit091104" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/_editverse_x/"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section section-padding" id="advisors">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Advisors</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtext">Meet the advisors of CodeChef MIT-ADT</p>
+        </div>
+
+        <div class="team-grid">
+          <!-- Director-->
+          <div class="team-card">
+            <div class="team-image">
+              <img src="advisors/vipul sir.jpeg" alt="Vipul Dalal" />
+            </div>
+            <div class="team-info">
+              <h3>Prof. Dr. Vipul Dalal</h3>
+              <p class="team-position">Director-MIT School of Computing</p>
+              <div class="team-social">
+                <a
+                  href="https://in.linkedin.com/in/drvipuldalal"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href=""><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!--Dean-->
+          <div class="team-card">
+            <div class="team-image">
+              <img src="advisors/bedi mam.jpeg" alt="Rajneeshkaur Sachdeo" />
+            </div>
+            <div class="team-info">
+              <h3>Prof. Dr. Rajneeshkaur Sachdeo</h3>
+              <p class="team-position">Dean-MIT School of Computing</p>
+              <div class="team-social">
+                <a
+                  href="https://in.linkedin.com/in/rajneeshkaur-bedi-50041951"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href=""><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!--HOD-->
+
+          <div class="team-card">
+            <div class="team-image">
+              <img src="advisors/shraddha mam.jpeg" alt="Shraddha Phansalkar" />
+            </div>
+            <div class="team-info">
+              <h3>Prof. Dr. Shraddha Phansalkar</h3>
+              <p class="team-position">HOD-Core CSE</p>
+              <div class="team-social">
+                <a
+                  href="https://in.linkedin.com/in/dr-shraddha-phansalkar-9210093b"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href=""><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!--Faculty Coordinator-->
+          <div class="team-card">
+            <div class="team-image">
+              <img src="advisors/chaitanya.jpeg" alt="Chaitanya Garware" />
+            </div>
+            <div class="team-info">
+              <h3>Prof. Chaitanya Garware</h3>
+              <p class="team-position">Faculty Coordinator</p>
+              <div class="team-social">
+                <a
+                  href="https://in.linkedin.com/in/chaitanya-garware-640116270"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href=""><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!--Advisor 1-->
+          <div class="team-card">
+            <div class="team-image">
+              <img src="advisors/Sagnik.JPG" alt="Sagnik Nayak" />
+            </div>
+            <div class="team-info">
+              <h3>Sagnik Nayak</h3>
+              <p class="team-position">Advisor 1</p>
+              <div class="team-social">
+                <a
+                  href="https://in.linkedin.com/in/sagnik-nayak-714535234"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href=""><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!--Advisor 2-->
+
+          <div class="team-card">
+            <div class="team-image">
+              <img src="advisors/meet.jpeg" alt="Meet Parekh" />
+            </div>
+            <div class="team-info">
+              <h3>Meet Parekh</h3>
+              <p class="team-position">Advisor 2</p>
+              <div class="team-social">
+                <a
+                  href="https://in.linkedin.com/in/meet-parekh-b9b4a1233"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/parekhmeet" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Alumni Section -->
+
+    <section class="alumni-section section-padding" id="alumni">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Alumni</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtext">
+            Meet our distinguished alumni who have made significant
+            contributions in the tech world
+          </p>
+        </div>
+
+        <div class="alumni-grid">
+          <!-- Alumni 1 -->
+          <div class="alumni-card">
+            <div class="alumni-image">
+              <img src="Alumni/Aditya.jpg" alt="Aditya Jain" />
+            </div>
+            <div class="alumni-info">
+              <h3>Aditya Jain</h3>
+              <p class="alumni-position">Software Development Engineer</p>
+              <p class="alumni-company">EQ Technologic</p>
+              <div class="alumni-social">
+                <a
+                  href="https://in.linkedin.com/in/adityajain03"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/unfehlbar03" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alumni 2 -->
+          <div class="alumni-card">
+            <div class="alumni-image">
+              <img src="Alumni/abhay.JPG" alt="Abhay Babbar" />
+            </div>
+            <div class="alumni-info">
+              <h3>Abhay Babbar</h3>
+              <p class="alumni-position">Software Development Engineer</p>
+              <p class="alumni-company">Lattice Semiconductor</p>
+              <div class="alumni-social">
+                <a href="https://in.linkedin.com/in/babbarabhay" target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/abhaybabbar" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="https://www.instagram.com/abhaybabbar/" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alumni 3 -->
+          <div class="alumni-card">
+            <div class="alumni-image">
+              <img src="Alumni/Fawzaan.jpg" alt="Fawzaan Sheikh" />
+            </div>
+            <div class="alumni-info">
+              <h3>Fawzaan Sheikh</h3>
+              <p class="alumni-position">Software Development Engineer</p>
+              <p class="alumni-company">EQ Technologic</p>
+              <div class="alumni-social">
+                <a
+                  href="https://in.linkedin.com/in/fawzaanshaikh"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alumni 4 -->
+          <div class="alumni-card">
+            <div class="alumni-image">
+              <img src="Alumni/Shivraj.jpg" alt="Shivraj Patil" />
+            </div>
+            <div class="alumni-info">
+              <h3>Shivraj Patil</h3>
+              <p class="alumni-position">IT Trainee</p>
+              <p class="alumni-company">FIS</p>
+              <div class="alumni-social">
+                <a
+                  href="https://in.linkedin.com/in/shivrajpatil007"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/Shivraj-Patil" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alumni 5 -->
+          <div class="alumni-card">
+            <div class="alumni-image">
+              <img src="Alumni/Varun.jpg" alt="Varun Poojary" />
+            </div>
+            <div class="alumni-info">
+              <h3>Varun Poojary</h3>
+              <p class="alumni-position">IT Trainee</p>
+              <p class="alumni-company">FIS</p>
+              <div class="alumni-social">
+                <a
+                  href="https://in.linkedin.com/in/varun-poojary7"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/VarunPoojary" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="https://www.instagram.com/vrumnn/" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alumni 6 -->
+          <div class="alumni-card">
+            <div class="alumni-image">
+              <img src="Alumni/Shivam.jpg" alt="Shivam Pathak" />
+            </div>
+            <div class="alumni-info">
+              <h3>Shivam Pathak</h3>
+              <p class="alumni-position">Member of Technical Staff 2</p>
+              <p class="alumni-company">Cohesity</p>
+              <div class="alumni-social">
+                <a
+                  href="https://in.linkedin.com/in/shivam-pathak-90268a18b"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alumni 7 -->
+          <div class="alumni-card">
+            <div class="alumni-image">
+              <img src="Alumni/jaishnu.JPG" alt="Jaishnu Kotian" />
+            </div>
+            <div class="alumni-info">
+              <h3>Jaishnu Kotian</h3>
+              <p class="alumni-position">Product Manager</p>
+              <p class="alumni-company">FynTune Solutions Pvt. Ltd</p>
+              <div class="alumni-social">
+                <a
+                  href="https://in.linkedin.com/in/jaishnu-kotian-9386b3221"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a
+                  href="https://www.instagram.com/jaishnukotiann/"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alumni 8 -->
+          <div class="alumni-card">
+            <div class="alumni-image">
+              <img src="Alumni/kunika.jpeg" alt="Kunika Lila" />
+            </div>
+            <div class="alumni-info">
+              <h3>Kunika Lila</h3>
+              <p class="alumni-position">Software Developer</p>
+              <p class="alumni-company">Tata Consultancy Services</p>
+              <div class="alumni-social">
+                <a href="https://in.linkedin.com/in/kunika-lila-16174a203" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtext">Have questions? Get in touch with us!</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>
+                  MIT-ADT University, Loni Kalbhor, Pune, Maharashtra 412201
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>codechefmitsoe@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Phone</h4>
+                <p>+91 6289734424</p>
+              </div>
+            </div>
+
+            <div class="contact-social">
+              <h4>Follow Us</h4>
+              <div class="social-icons">
+                <a
+                  href="https://www.facebook.com/CodeChef/photos/a.10150302285647799/10158405806767799/?type=3"
+                  target="_blank"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/codechef_mitadt/"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="https://in.linkedin.com/company/codechef-mitsoe-chapter"
+                  ><i class="fab fa-linkedin-in" target="_blank"></i
+                ></a>
+                <a href="https://x.com/codechef?lang=en"
+                  ><i class="fab fa-twitter" target="_blank"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/channel/UCh-5M0r0SBgb5xNCFXG7aXQ"
+                  target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form action="#" method="post">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input type="text" name="subject" placeholder="Subject" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img
+              src="CodeChef New Logo 24-25.png"
+              alt="CodeChef MIT-ADT Logo"
+            />
+            <p>
+              Empowering students through competitive programming and
+              problem-solving
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#aboutus">About Us</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#alumni">Alumni</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-resources">
+            <h4>Resources</h4>
+            <ul>
+              <li>
+                <a href="https://www.codechef.com/" target="_blank"
+                  >CodeChef Platform</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.codechef.com/roadmap/data-structures-and-algorithms"
+                  target="_blank"
+                  >DSA Resources</a
+                >
+              </li>
+              <li>
+                <a href="https://www.codechef.com/contests" target="_blank"
+                  >Competitive Programming</a
+                >
+              </li>
+              <li>
+                <a href="https://www.codechef.com/interviewprep" target="_blank"
+                  >Interview Preparation</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.codechef.com/learn/topic/web-development"
+                  target="_blank"
+                  >Web D Resources</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.codechef.com/roadmap/cpp-dsa"
+                  target="_blank"
+                  >Learn C++</a
+                >
+              </li>
+              <li>
+                <a href="https://www.codechef.com/roadmaps" target="_blank"
+                  >More Roadmaps
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-newsletter">
+            <h4>Subscribe to Our Newsletter</h4>
+            <p>Stay updated with our latest events and activities</p>
+            <form action="#" method="post">
+              <input type="email" placeholder="Your Email" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 CodeChef MIT-ADT. All rights reserved.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/CodeChef/photos/a.10150302285647799/10158405806767799/?type=3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/codechef_mitadt/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://in.linkedin.com/company/codechef-mitsoe-chapter" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://x.com/codechef?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UCh-5M0r0SBgb5xNCFXG7aXQ" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
